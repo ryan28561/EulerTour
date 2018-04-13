@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A7E2360207BD9D000360DCC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A7E235F207BD9D000360DCC /* main.cpp */; };
+		2A7E2368207BDA1B00360DCC /* TestEuler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A7E2366207BDA1A00360DCC /* TestEuler.cpp */; };
+		2A7E236B207BDA4900360DCC /* graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A7E2369207BDA4900360DCC /* graph.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,10 @@
 
 /* Begin PBXFileReference section */
 		2A7E235C207BD9D000360DCC /* EulerTour */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EulerTour; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A7E235F207BD9D000360DCC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2A7E2366207BDA1A00360DCC /* TestEuler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestEuler.cpp; sourceTree = "<group>"; };
+		2A7E2367207BDA1A00360DCC /* edge1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = edge1.h; sourceTree = "<group>"; };
+		2A7E2369207BDA4900360DCC /* graph.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = graph.cpp; sourceTree = "<group>"; };
+		2A7E236A207BDA4900360DCC /* graph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = graph.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,10 @@
 		2A7E235E207BD9D000360DCC /* EulerTour */ = {
 			isa = PBXGroup;
 			children = (
-				2A7E235F207BD9D000360DCC /* main.cpp */,
+				2A7E2367207BDA1A00360DCC /* edge1.h */,
+				2A7E2366207BDA1A00360DCC /* TestEuler.cpp */,
+				2A7E2369207BDA4900360DCC /* graph.cpp */,
+				2A7E236A207BDA4900360DCC /* graph.hpp */,
 			);
 			path = EulerTour;
 			sourceTree = "<group>";
@@ -118,7 +125,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A7E2360207BD9D000360DCC /* main.cpp in Sources */,
+				2A7E236B207BDA4900360DCC /* graph.cpp in Sources */,
+				2A7E2368207BDA1B00360DCC /* TestEuler.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
